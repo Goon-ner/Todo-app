@@ -1,0 +1,61 @@
+.emptyList,
+.todoItem {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-color: rgb(192, 190, 229);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-style: solid;
+  max-width: 60%;
+  width: 100%;
+  margin: 15px auto;
+}
+.emptyList {
+  display: block;
+}
+.completeTodoItem {
+  display: flex;
+  align-items: center;
+  border: 4px solid;
+  border-color: green;
+  color: black;
+  background-color: rgb(221, 220, 255);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-style: solid;
+  max-width: 60%;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.todoText {
+  width: 100%;
+}
+
+.todoIcon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: teal;
+  min-width: 1.8rem;
+}
+.deleteIcon,
+.checkIcon {
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0 7px;
+  color: lightgoldenrodyellow;
+  min-width: 1.3rem;
+  transition: transform 0.3s;
+}
+
+.deleteIcon:hover {
+  color: red;
+  transform: scale(1.3);
+}
+.checkIcon:hover {
+  color: green;
+  transform: scale(1.3);
+}
